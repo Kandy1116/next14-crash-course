@@ -1,0 +1,10 @@
+{
+  "name": "next14-crash-course-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ./next14-crash-course run dev",
+    "build": "npm --prefix ./next14-crash-course run build",
+    "start": "npm --prefix ./next14-crash-course run start",
+    "lint": "npm --prefix ./next14-crash-course run lint"
+  }
+}
