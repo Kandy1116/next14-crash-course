@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <nav className="bg-red-400">
+    <nav className="bg-blue-400">
         <ul className="flex justify-center space-x-4 text-xl p-3">
             <Link href={"/"}>
                 <li>Home</li>
@@ -13,7 +13,7 @@ function Navbar() {
             <Link href={"/contact"}>
                 <li>Contact</li>
             </Link>
-            <input placeholder="search" />
+            <input placeholder="search" className="bg-white" />
         </ul>
     
     </nav>
